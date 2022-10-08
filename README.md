@@ -9,3 +9,5 @@ General collection of Python Packages wrapped for use in Delphi and C++Builder. 
 * [RemBG](https://github.com/danielgatis/rembg) - Tool to remove images background.
 * [H5Py](https://www.h5py.org/) - Provides both a high- and low-level interface to the HDF5 (Hierarchical Data Format) library. It lets you store huge amounts of numerical data, and easily manipulate that data from NumPy. 
 * [PSUtil](https://github.com/giampaolo/psutil) - (process and system utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) 
+
+For Data Sciene related packages, check out [P4D-Data-Sciences](https://github.com/Embarcadero/P4D-Data-Sciences)
