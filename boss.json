@@ -1,0 +1,26 @@
+{
+	"name": "PythonPackages4Delphi",
+	"description": "General collection of Python Packages wrapped for use in Delphi and C++Builder",
+	"version": "1.0.0",
+	"homepage": "https://github.com/Embarcadero/PythonPackages4Delphi",
+	"mainsrc": "./src",
+	"projects": [
+		"./packages/dclP4DBoto3.dproj",
+		"./packages/dclP4DH5Py.dproj",
+		"./packages/dclP4DMoviePy.dproj",
+		"./packages/dclP4DPillow.dproj",
+		"./packages/dclP4DPSUtil.dproj",
+		"./packages/dclP4DPyQT5.dproj",
+		"./packages/dclP4DRemBG.dproj",
+		"./packages/P4DBoto3.dproj",
+		"./packages/P4DH5Py.dproj",
+		"./packages/P4DMoviePy.dproj",
+		"./packages/P4DPillow.dproj",
+		"./packages/P4DPSUtil.dproj",
+		"./packages/P4DPyQT5.dproj",
+		"./packages/P4DRemBG.dproj"
+	],
+	"dependencies": {
+		"https://github.com/embarcadero/lightweight-python-wrappers": "^v0.0.1-alpha"
+	}
+}
