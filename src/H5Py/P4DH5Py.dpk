@@ -35,6 +35,6 @@ requires
   p4dpypackage;
 
 contains
-  H5Py in '..\src\H5Py\H5Py.pas';
+  H5Py in 'H5Py.pas';
 
 end.

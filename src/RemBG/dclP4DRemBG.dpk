@@ -1,4 +1,4 @@
-package dclP4DBoto3;
+package dclP4DRemBG;
 
 {$R *.res}
 {$R *.dres}
@@ -26,16 +26,16 @@ package dclP4DBoto3;
 {$IMAGEBASE $400000}
 {$DEFINE RELEASE}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'P4D Data Sciences - Boto3'}
+{$DESCRIPTION 'P4D Data Sciences - RemBG'}
 {$LIBSUFFIX AUTO}
 {$DESIGNONLY}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
-  p4dBoto3;
+  p4dRemBG;
 
 contains
-  Boto3Reg in '..\src\Boto3\Boto3Reg.pas';
+  RemBGReg in 'RemBGReg.pas';
 
 end.

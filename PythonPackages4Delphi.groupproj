@@ -3,46 +3,46 @@
         <ProjectGuid>{8BED2FB2-EC9D-45DD-B081-C843A9B25B0B}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
-        <Projects Include="packages\P4DBoto3.dproj">
+        <Projects Include="src\Boto3\P4DBoto3.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\P4DH5Py.dproj">
+        <Projects Include="src\H5Py\P4DH5Py.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\P4DMoviePy.dproj">
+        <Projects Include="src\MoviePy\P4DMoviePy.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\P4DPillow.dproj">
+        <Projects Include="src\Pillow\P4DPillow.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\P4DPSUtil.dproj">
+        <Projects Include="src\PSUtil\P4DPSUtil.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\P4DPyQT5.dproj">
+        <Projects Include="src\PyQT5\P4DPyQT5.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\P4DRemBG.dproj">
+        <Projects Include="src\RemBG\P4DRemBG.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\dclP4DRemBG.dproj">
+        <Projects Include="src\RemBG\dclP4DRemBG.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\dclP4DPyQT5.dproj">
+        <Projects Include="src\PyQT5\dclP4DPyQT5.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\dclP4DPSUtil.dproj">
+        <Projects Include="src\PSUtil\dclP4DPSUtil.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\dclP4DPillow.dproj">
+        <Projects Include="src\Pillow\dclP4DPillow.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\dclP4DMoviePy.dproj">
+        <Projects Include="src\MoviePy\dclP4DMoviePy.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\dclP4DH5Py.dproj">
+        <Projects Include="src\H5Py\dclP4DH5Py.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="packages\dclP4DBoto3.dproj">
+        <Projects Include="src\Boto3\dclP4DBoto3.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -54,130 +54,130 @@
         </BorlandProject>
     </ProjectExtensions>
     <Target Name="P4DBoto3">
-        <MSBuild Projects="packages\P4DBoto3.dproj"/>
+        <MSBuild Projects="src\Boto3\P4DBoto3.dproj"/>
     </Target>
     <Target Name="P4DBoto3:Clean">
-        <MSBuild Projects="packages\P4DBoto3.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\Boto3\P4DBoto3.dproj" Targets="Clean"/>
     </Target>
     <Target Name="P4DBoto3:Make">
-        <MSBuild Projects="packages\P4DBoto3.dproj" Targets="Make"/>
+        <MSBuild Projects="src\Boto3\P4DBoto3.dproj" Targets="Make"/>
     </Target>
     <Target Name="P4DH5Py">
-        <MSBuild Projects="packages\P4DH5Py.dproj"/>
+        <MSBuild Projects="src\H5Py\P4DH5Py.dproj"/>
     </Target>
     <Target Name="P4DH5Py:Clean">
-        <MSBuild Projects="packages\P4DH5Py.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\H5Py\P4DH5Py.dproj" Targets="Clean"/>
     </Target>
     <Target Name="P4DH5Py:Make">
-        <MSBuild Projects="packages\P4DH5Py.dproj" Targets="Make"/>
+        <MSBuild Projects="src\H5Py\P4DH5Py.dproj" Targets="Make"/>
     </Target>
     <Target Name="P4DMoviePy">
-        <MSBuild Projects="packages\P4DMoviePy.dproj"/>
+        <MSBuild Projects="src\MoviePy\P4DMoviePy.dproj"/>
     </Target>
     <Target Name="P4DMoviePy:Clean">
-        <MSBuild Projects="packages\P4DMoviePy.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\MoviePy\P4DMoviePy.dproj" Targets="Clean"/>
     </Target>
     <Target Name="P4DMoviePy:Make">
-        <MSBuild Projects="packages\P4DMoviePy.dproj" Targets="Make"/>
+        <MSBuild Projects="src\MoviePy\P4DMoviePy.dproj" Targets="Make"/>
     </Target>
     <Target Name="P4DPillow">
-        <MSBuild Projects="packages\P4DPillow.dproj"/>
+        <MSBuild Projects="src\Pillow\P4DPillow.dproj"/>
     </Target>
     <Target Name="P4DPillow:Clean">
-        <MSBuild Projects="packages\P4DPillow.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\Pillow\P4DPillow.dproj" Targets="Clean"/>
     </Target>
     <Target Name="P4DPillow:Make">
-        <MSBuild Projects="packages\P4DPillow.dproj" Targets="Make"/>
+        <MSBuild Projects="src\Pillow\P4DPillow.dproj" Targets="Make"/>
     </Target>
     <Target Name="P4DPSUtil">
-        <MSBuild Projects="packages\P4DPSUtil.dproj"/>
+        <MSBuild Projects="src\PSUtil\P4DPSUtil.dproj"/>
     </Target>
     <Target Name="P4DPSUtil:Clean">
-        <MSBuild Projects="packages\P4DPSUtil.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\PSUtil\P4DPSUtil.dproj" Targets="Clean"/>
     </Target>
     <Target Name="P4DPSUtil:Make">
-        <MSBuild Projects="packages\P4DPSUtil.dproj" Targets="Make"/>
+        <MSBuild Projects="src\PSUtil\P4DPSUtil.dproj" Targets="Make"/>
     </Target>
     <Target Name="P4DPyQT5">
-        <MSBuild Projects="packages\P4DPyQT5.dproj"/>
+        <MSBuild Projects="src\PyQT5\P4DPyQT5.dproj"/>
     </Target>
     <Target Name="P4DPyQT5:Clean">
-        <MSBuild Projects="packages\P4DPyQT5.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\PyQT5\P4DPyQT5.dproj" Targets="Clean"/>
     </Target>
     <Target Name="P4DPyQT5:Make">
-        <MSBuild Projects="packages\P4DPyQT5.dproj" Targets="Make"/>
+        <MSBuild Projects="src\PyQT5\P4DPyQT5.dproj" Targets="Make"/>
     </Target>
     <Target Name="P4DRemBG">
-        <MSBuild Projects="packages\P4DRemBG.dproj"/>
+        <MSBuild Projects="src\RemBG\P4DRemBG.dproj"/>
     </Target>
     <Target Name="P4DRemBG:Clean">
-        <MSBuild Projects="packages\P4DRemBG.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\RemBG\P4DRemBG.dproj" Targets="Clean"/>
     </Target>
     <Target Name="P4DRemBG:Make">
-        <MSBuild Projects="packages\P4DRemBG.dproj" Targets="Make"/>
+        <MSBuild Projects="src\RemBG\P4DRemBG.dproj" Targets="Make"/>
     </Target>
     <Target Name="dclP4DRemBG">
-        <MSBuild Projects="packages\dclP4DRemBG.dproj"/>
+        <MSBuild Projects="src\RemBG\dclP4DRemBG.dproj"/>
     </Target>
     <Target Name="dclP4DRemBG:Clean">
-        <MSBuild Projects="packages\dclP4DRemBG.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\RemBG\dclP4DRemBG.dproj" Targets="Clean"/>
     </Target>
     <Target Name="dclP4DRemBG:Make">
-        <MSBuild Projects="packages\dclP4DRemBG.dproj" Targets="Make"/>
+        <MSBuild Projects="src\RemBG\dclP4DRemBG.dproj" Targets="Make"/>
     </Target>
     <Target Name="dclP4DPyQT5">
-        <MSBuild Projects="packages\dclP4DPyQT5.dproj"/>
+        <MSBuild Projects="src\PyQT5\dclP4DPyQT5.dproj"/>
     </Target>
     <Target Name="dclP4DPyQT5:Clean">
-        <MSBuild Projects="packages\dclP4DPyQT5.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\PyQT5\dclP4DPyQT5.dproj" Targets="Clean"/>
     </Target>
     <Target Name="dclP4DPyQT5:Make">
-        <MSBuild Projects="packages\dclP4DPyQT5.dproj" Targets="Make"/>
+        <MSBuild Projects="src\PyQT5\dclP4DPyQT5.dproj" Targets="Make"/>
     </Target>
     <Target Name="dclP4DPSUtil">
-        <MSBuild Projects="packages\dclP4DPSUtil.dproj"/>
+        <MSBuild Projects="src\PSUtil\dclP4DPSUtil.dproj"/>
     </Target>
     <Target Name="dclP4DPSUtil:Clean">
-        <MSBuild Projects="packages\dclP4DPSUtil.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\PSUtil\dclP4DPSUtil.dproj" Targets="Clean"/>
     </Target>
     <Target Name="dclP4DPSUtil:Make">
-        <MSBuild Projects="packages\dclP4DPSUtil.dproj" Targets="Make"/>
+        <MSBuild Projects="src\PSUtil\dclP4DPSUtil.dproj" Targets="Make"/>
     </Target>
     <Target Name="dclP4DPillow">
-        <MSBuild Projects="packages\dclP4DPillow.dproj"/>
+        <MSBuild Projects="src\Pillow\dclP4DPillow.dproj"/>
     </Target>
     <Target Name="dclP4DPillow:Clean">
-        <MSBuild Projects="packages\dclP4DPillow.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\Pillow\dclP4DPillow.dproj" Targets="Clean"/>
     </Target>
     <Target Name="dclP4DPillow:Make">
-        <MSBuild Projects="packages\dclP4DPillow.dproj" Targets="Make"/>
+        <MSBuild Projects="src\Pillow\dclP4DPillow.dproj" Targets="Make"/>
     </Target>
     <Target Name="dclP4DMoviePy">
-        <MSBuild Projects="packages\dclP4DMoviePy.dproj"/>
+        <MSBuild Projects="src\MoviePy\dclP4DMoviePy.dproj"/>
     </Target>
     <Target Name="dclP4DMoviePy:Clean">
-        <MSBuild Projects="packages\dclP4DMoviePy.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\MoviePy\dclP4DMoviePy.dproj" Targets="Clean"/>
     </Target>
     <Target Name="dclP4DMoviePy:Make">
-        <MSBuild Projects="packages\dclP4DMoviePy.dproj" Targets="Make"/>
+        <MSBuild Projects="src\MoviePy\dclP4DMoviePy.dproj" Targets="Make"/>
     </Target>
     <Target Name="dclP4DH5Py">
-        <MSBuild Projects="packages\dclP4DH5Py.dproj"/>
+        <MSBuild Projects="src\H5Py\dclP4DH5Py.dproj"/>
     </Target>
     <Target Name="dclP4DH5Py:Clean">
-        <MSBuild Projects="packages\dclP4DH5Py.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\H5Py\dclP4DH5Py.dproj" Targets="Clean"/>
     </Target>
     <Target Name="dclP4DH5Py:Make">
-        <MSBuild Projects="packages\dclP4DH5Py.dproj" Targets="Make"/>
+        <MSBuild Projects="src\H5Py\dclP4DH5Py.dproj" Targets="Make"/>
     </Target>
     <Target Name="dclP4DBoto3">
-        <MSBuild Projects="packages\dclP4DBoto3.dproj"/>
+        <MSBuild Projects="src\Boto3\dclP4DBoto3.dproj"/>
     </Target>
     <Target Name="dclP4DBoto3:Clean">
-        <MSBuild Projects="packages\dclP4DBoto3.dproj" Targets="Clean"/>
+        <MSBuild Projects="src\Boto3\dclP4DBoto3.dproj" Targets="Clean"/>
     </Target>
     <Target Name="dclP4DBoto3:Make">
-        <MSBuild Projects="packages\dclP4DBoto3.dproj" Targets="Make"/>
+        <MSBuild Projects="src\Boto3\dclP4DBoto3.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
         <CallTarget Targets="P4DBoto3;P4DH5Py;P4DMoviePy;P4DPillow;P4DPSUtil;P4DPyQT5;P4DRemBG;dclP4DRemBG;dclP4DPyQT5;dclP4DPSUtil;dclP4DPillow;dclP4DMoviePy;dclP4DH5Py;dclP4DBoto3"/>

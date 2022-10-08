@@ -91,36 +91,36 @@
         </DelphiCompile>
         <DCCReference Include="rtl.dcp"/>
         <DCCReference Include="p4dMoviePy.dcp"/>
-        <DCCReference Include="..\src\MoviePy\MoviePyReg.pas"/>
-        <RcItem Include="..\images\bmp\128\MoviePy.bmp">
+        <DCCReference Include="MoviePyReg.pas"/>
+        <RcItem Include="..\..\images\bmp\128\MoviePy.bmp">
             <ResourceType>BITMAP</ResourceType>
             <ResourceId>TMoviePy128</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\bmp\16\MoviePy.bmp">
+        <RcItem Include="..\..\images\bmp\16\MoviePy.bmp">
             <ResourceType>BITMAP</ResourceType>
             <ResourceId>TMoviePy16</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\bmp\24\MoviePy.bmp">
+        <RcItem Include="..\..\images\bmp\24\MoviePy.bmp">
             <ResourceType>BITMAP</ResourceType>
             <ResourceId>TMoviePy</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\bmp\32\MoviePy.bmp">
+        <RcItem Include="..\..\images\bmp\32\MoviePy.bmp">
             <ResourceType>BITMAP</ResourceType>
             <ResourceId>TMoviePy32</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\png\24x24\MoviePy.png">
+        <RcItem Include="..\..\images\png\24x24\MoviePy.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>TMoviePy_PNG</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\png\128x128\MoviePy.png">
+        <RcItem Include="..\..\images\png\128x128\MoviePy.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>TMoviePy128_PNG</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\png\16x16\MoviePy.png">
+        <RcItem Include="..\..\images\png\16x16\MoviePy.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>TMoviePy16_PNG</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\png\32x32\MoviePy.png">
+        <RcItem Include="..\..\images\png\32x32\MoviePy.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>TMoviePy32_PNG</ResourceId>
         </RcItem>

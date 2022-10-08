@@ -4,9 +4,9 @@
         <AppType>Package</AppType>
         <Config Condition="'$(Config)'==''">Release</Config>
         <FrameworkType>None</FrameworkType>
-        <MainSource>P4DPillow.dpk</MainSource>
+        <MainSource>P4DH5Py.dpk</MainSource>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
-        <ProjectGuid>{FB1118BA-B733-4F1E-859B-F45B74090654}</ProjectGuid>
+        <ProjectGuid>{F2AE9D13-9C35-45E4-A6B3-CC490B741C05}</ProjectGuid>
         <ProjectVersion>19.5</ProjectVersion>
         <TargetedPlatforms>167955</TargetedPlatforms>
     </PropertyGroup>
@@ -14,9 +14,9 @@
         <Base_OSX64>true</Base_OSX64>
         <CfgParent>Base</CfgParent>
         <Base>true</Base>
-        <BT_BuildType>Debug</BT_BuildType>
         <VerInfo_Keys>CFBundleName=$(MSBuildProjectName);CFBundleDisplayName=$(MSBuildProjectName);CFBundleIdentifier=$(MSBuildProjectName);CFBundleVersion=1.0.0;CFBundleShortVersionString=1.0.0;CFBundlePackageType=APPL;CFBundleSignature=????;CFBundleAllowMixedLocalizations=YES;CFBundleExecutable=$(MSBuildProjectName);NSHighResolutionCapable=true;LSApplicationCategoryType=public.app-category.utilities;NSLocationUsageDescription=The reason for accessing the location information of the user;NSContactsUsageDescription=The reason for accessing the contacts;NSCalendarsUsageDescription=The reason for accessing the calendar data;NSRemindersUsageDescription=The reason for accessing the reminders;NSCameraUsageDescription=The reason for accessing the camera;NSMicrophoneUsageDescription=The reason for accessing the microphone;NSMotionUsageDescription=The reason for accessing the accelerometer;NSDesktopFolderUsageDescription=The reason for accessing the Desktop folder;NSDocumentsFolderUsageDescription=The reason for accessing the Documents folder;NSDownloadsFolderUsageDescription=The reason for accessing the Downloads folder;NSNetworkVolumesUsageDescription=The reason for accessing files on a network volume;NSRemovableVolumesUsageDescription=The reason for accessing files on a removable volume;NSSpeechRecognitionUsageDescription=The reason for requesting to send user data to Apple&apos;s speech recognition servers</VerInfo_Keys>
         <Debugger_Launcher>/usr/X11/bin/xterm -e &quot;%debuggee%&quot;</Debugger_Launcher>
+        <BT_BuildType>Debug</BT_BuildType>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
         <Base>true</Base>
@@ -134,10 +134,10 @@
         <Base>true</Base>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
-        <SanitizedProjectName>P4DPillow</SanitizedProjectName>
+        <SanitizedProjectName>P4DH5Py</SanitizedProjectName>
         <DCC_CBuilderOutput>All</DCC_CBuilderOutput>
         <DCC_DcuOutput>..\lib\$(Platform)\$(Config)</DCC_DcuOutput>
-        <DCC_Description>P4D Data Sciences - Pillow</DCC_Description>
+        <DCC_Description>P4D Data Sciences - H5Py</DCC_Description>
         <DCC_ExeOutput>.\$(Platform)\$(Config)</DCC_ExeOutput>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
         <DCC_UnitSearchPath>modules\.dcp;modules\.dcu;modules;modules\.bpl;modules\lightweight-python-wrappers\src\Manager\Cmd\Conda;modules\lightweight-python-wrappers\src\Manager\Cmd\Pip;modules\lightweight-python-wrappers\src\Manager\Cmd;modules\lightweight-python-wrappers\src\Manager\Defs\Opts\Conda;modules\lightweight-python-wrappers\src\Manager\Defs\Opts\Pip;modules\lightweight-python-wrappers\src\Manager\Defs\Opts;modules\lightweight-python-wrappers\src\Manager\Defs;modules\lightweight-python-wrappers\src\Manager;modules\lightweight-python-wrappers\src\Model;modules\lightweight-python-wrappers\src;modules\python4delphi\Source;modules\python4delphi\Source\fmx;modules\python4delphi\Source\lcl;modules\python4delphi\Source\vcl;modules\pythonenviroments\src\AddOn;modules\pythonenviroments\src\Embeddable;modules\pythonenviroments\src\Embeddable\Res;modules\pythonenviroments\src\Project\IDE;modules\pythonenviroments\src\Project;modules\pythonenviroments\src;modules\pythonenviroments\src\Tools;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
@@ -252,7 +252,7 @@
         </DelphiCompile>
         <DCCReference Include="rtl.dcp"/>
         <DCCReference Include="p4dpypackage.dcp"/>
-        <DCCReference Include="..\src\Pillow\Pillow.pas"/>
+        <DCCReference Include="H5Py.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -271,7 +271,7 @@
         <BorlandProject>
             <Delphi.Personality>
                 <Source>
-                    <Source Name="MainSource">P4DPillow.dpk</Source>
+                    <Source Name="MainSource">P4DH5Py.dpk</Source>
                 </Source>
                 <Excluded_Packages/>
             </Delphi.Personality>

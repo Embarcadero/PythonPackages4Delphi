@@ -1,7 +1,6 @@
-package dclP4DPyQT5;
+package P4DPillow;
 
 {$R *.res}
-{$R *.dres}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
@@ -26,16 +25,16 @@ package dclP4DPyQT5;
 {$IMAGEBASE $400000}
 {$DEFINE RELEASE}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'P4D Data Sciences - PyQT5'}
+{$DESCRIPTION 'P4D Data Sciences - Pillow'}
 {$LIBSUFFIX AUTO}
-{$DESIGNONLY}
+{$RUNONLY}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
-  p4dPyQT5;
+  p4dpypackage;
 
 contains
-  PyQT5Reg in '..\src\PyQT5\PyQT5Reg.pas';
+  Pillow in 'Pillow.pas';
 
 end.

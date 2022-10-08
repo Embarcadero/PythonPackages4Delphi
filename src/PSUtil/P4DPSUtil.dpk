@@ -1,7 +1,6 @@
-package dclP4DPSUtil;
+package P4DPSUtil;
 
 {$R *.res}
-{$R *.dres}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
@@ -28,14 +27,14 @@ package dclP4DPSUtil;
 {$ENDIF IMPLICITBUILDING}
 {$DESCRIPTION 'P4D Data Sciences - PSUtil'}
 {$LIBSUFFIX AUTO}
-{$DESIGNONLY}
+{$RUNONLY}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
-  p4dPSUtil;
+  p4dpypackage;
 
 contains
-  PSUtilReg in '..\src\PSUtil\PSUtilReg.pas';
+  PSUtil in 'PSUtil.pas';
 
 end.

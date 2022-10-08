@@ -1,4 +1,4 @@
-package dclP4DPillow;
+package dclP4DH5Py;
 
 {$R *.res}
 {$R *.dres}
@@ -26,16 +26,16 @@ package dclP4DPillow;
 {$IMAGEBASE $400000}
 {$DEFINE RELEASE}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'P4D Data Sciences - Pillow'}
+{$DESCRIPTION 'P4D Data Sciences - H5Py'}
 {$LIBSUFFIX AUTO}
 {$DESIGNONLY}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
-  p4dPillow;
+  p4dH5Py;
 
 contains
-  PillowReg in '..\src\Pillow\PillowReg.pas';
+  H5PyReg in 'H5PyReg.pas';
 
 end.

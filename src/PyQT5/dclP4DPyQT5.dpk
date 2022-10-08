@@ -1,4 +1,4 @@
-package dclP4DMoviePy;
+package dclP4DPyQT5;
 
 {$R *.res}
 {$R *.dres}
@@ -26,16 +26,16 @@ package dclP4DMoviePy;
 {$IMAGEBASE $400000}
 {$DEFINE RELEASE}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'P4D Data Sciences - MoviePy'}
+{$DESCRIPTION 'P4D Data Sciences - PyQT5'}
 {$LIBSUFFIX AUTO}
 {$DESIGNONLY}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
-  p4dMoviePy;
+  p4dPyQT5;
 
 contains
-  MoviePyReg in '..\src\MoviePy\MoviePyReg.pas';
+  PyQT5Reg in 'PyQT5Reg.pas';
 
 end.

@@ -4,9 +4,9 @@
         <AppType>Package</AppType>
         <Config Condition="'$(Config)'==''">Release</Config>
         <FrameworkType>None</FrameworkType>
-        <MainSource>dclP4DH5Py.dpk</MainSource>
+        <MainSource>dclP4DPyQT5.dpk</MainSource>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
-        <ProjectGuid>{805DA427-3A70-41CE-9765-882731572A07}</ProjectGuid>
+        <ProjectGuid>{60777260-3E3D-413F-B9F2-A41E04A6907E}</ProjectGuid>
         <ProjectVersion>19.5</ProjectVersion>
         <TargetedPlatforms>1</TargetedPlatforms>
     </PropertyGroup>
@@ -41,8 +41,8 @@
         <Base>true</Base>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
-        <SanitizedProjectName>dclP4DH5Py</SanitizedProjectName>
-        <DCC_Description>P4D Data Sciences - H5Py</DCC_Description>
+        <SanitizedProjectName>dclP4DPyQT5</SanitizedProjectName>
+        <DCC_Description>P4D Data Sciences - PyQT5</DCC_Description>
         <DCC_ImageBase>00400000</DCC_ImageBase>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
         <DCC_UnitSearchPath>modules\.dcp;modules\.dcu;modules;modules\.bpl;modules\lightweight-python-wrappers\src\Manager\Cmd\Conda;modules\lightweight-python-wrappers\src\Manager\Cmd\Pip;modules\lightweight-python-wrappers\src\Manager\Cmd;modules\lightweight-python-wrappers\src\Manager\Defs\Opts\Conda;modules\lightweight-python-wrappers\src\Manager\Defs\Opts\Pip;modules\lightweight-python-wrappers\src\Manager\Defs\Opts;modules\lightweight-python-wrappers\src\Manager\Defs;modules\lightweight-python-wrappers\src\Manager;modules\lightweight-python-wrappers\src\Model;modules\lightweight-python-wrappers\src;modules\python4delphi\Source;modules\python4delphi\Source\fmx;modules\python4delphi\Source\lcl;modules\python4delphi\Source\vcl;modules\pythonenviroments\src\AddOn;modules\pythonenviroments\src\Embeddable;modules\pythonenviroments\src\Embeddable\Res;modules\pythonenviroments\src\Project\IDE;modules\pythonenviroments\src\Project;modules\pythonenviroments\src;modules\pythonenviroments\src\Tools;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
@@ -56,7 +56,7 @@
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <BT_BuildType>Debug</BT_BuildType>
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
-        <DCC_UsePackage>rtl;P4DH5Py;$(DCC_UsePackage)</DCC_UsePackage>
+        <DCC_UsePackage>rtl;P4DPyQT5;$(DCC_UsePackage)</DCC_UsePackage>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName)</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
@@ -68,7 +68,7 @@
         <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
-        <DCC_Description>P4D Data Sciences - H5Py</DCC_Description>
+        <DCC_Description>P4D Data Sciences - PyQT5</DCC_Description>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName)</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
@@ -90,39 +90,39 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="rtl.dcp"/>
-        <DCCReference Include="p4dH5Py.dcp"/>
-        <DCCReference Include="..\src\H5Py\H5PyReg.pas"/>
-        <RcItem Include="..\images\bmp\128\H5Py.bmp">
+        <DCCReference Include="p4dPyQT5.dcp"/>
+        <DCCReference Include="PyQT5Reg.pas"/>
+        <RcItem Include="..\..\images\bmp\128\PyQT5.bmp">
             <ResourceType>BITMAP</ResourceType>
-            <ResourceId>TH5Py128</ResourceId>
+            <ResourceId>TPyQT5128</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\bmp\16\H5Py.bmp">
+        <RcItem Include="..\..\images\bmp\16\PyQT5.bmp">
             <ResourceType>BITMAP</ResourceType>
-            <ResourceId>TH5Py16</ResourceId>
+            <ResourceId>TPyQT516</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\bmp\24\H5Py.bmp">
+        <RcItem Include="..\..\images\bmp\24\PyQT5.bmp">
             <ResourceType>BITMAP</ResourceType>
-            <ResourceId>TH5Py</ResourceId>
+            <ResourceId>TPyQT5</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\bmp\32\H5Py.bmp">
+        <RcItem Include="..\..\images\bmp\32\PyQT5.bmp">
             <ResourceType>BITMAP</ResourceType>
-            <ResourceId>TH5Py32</ResourceId>
+            <ResourceId>TPyQT532</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\png\24x24\H5Py.png">
+        <RcItem Include="..\..\images\png\24x24\PyQT5.png">
             <ResourceType>RCDATA</ResourceType>
-            <ResourceId>TH5Py_PNG</ResourceId>
+            <ResourceId>TPyQT5_PNG</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\png\128x128\H5Py.png">
+        <RcItem Include="..\..\images\png\128x128\PyQT5.png">
             <ResourceType>RCDATA</ResourceType>
-            <ResourceId>TH5Py128_PNG</ResourceId>
+            <ResourceId>TPyQT5128_PNG</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\png\16x16\H5Py.png">
+        <RcItem Include="..\..\images\png\16x16\PyQT5.png">
             <ResourceType>RCDATA</ResourceType>
-            <ResourceId>TH5Py16_PNG</ResourceId>
+            <ResourceId>TPyQT516_PNG</ResourceId>
         </RcItem>
-        <RcItem Include="..\images\png\32x32\H5Py.png">
+        <RcItem Include="..\..\images\png\32x32\PyQT5.png">
             <ResourceType>RCDATA</ResourceType>
-            <ResourceId>TH5Py32_PNG</ResourceId>
+            <ResourceId>TPyQT532_PNG</ResourceId>
         </RcItem>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
@@ -142,7 +142,7 @@
         <BorlandProject>
             <Delphi.Personality>
                 <Source>
-                    <Source Name="MainSource">dclP4DH5Py.dpk</Source>
+                    <Source Name="MainSource">dclP4DPyQT5.dpk</Source>
                 </Source>
                 <Excluded_Packages/>
             </Delphi.Personality>

@@ -1,7 +1,6 @@
-package dclP4DRemBG;
+package P4DRemBG;
 
 {$R *.res}
-{$R *.dres}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
@@ -28,14 +27,14 @@ package dclP4DRemBG;
 {$ENDIF IMPLICITBUILDING}
 {$DESCRIPTION 'P4D Data Sciences - RemBG'}
 {$LIBSUFFIX AUTO}
-{$DESIGNONLY}
+{$RUNONLY}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
-  p4dRemBG;
+  p4dpypackage;
 
 contains
-  RemBGReg in '..\src\RemBG\RemBGReg.pas';
+  RemBG in 'RemBG.pas';
 
 end.

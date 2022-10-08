@@ -1,4 +1,4 @@
-package dclP4DH5Py;
+package dclP4DMoviePy;
 
 {$R *.res}
 {$R *.dres}
@@ -26,16 +26,16 @@ package dclP4DH5Py;
 {$IMAGEBASE $400000}
 {$DEFINE RELEASE}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'P4D Data Sciences - H5Py'}
+{$DESCRIPTION 'P4D Data Sciences - MoviePy'}
 {$LIBSUFFIX AUTO}
 {$DESIGNONLY}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
-  p4dH5Py;
+  p4dMoviePy;
 
 contains
-  H5PyReg in '..\src\H5Py\H5PyReg.pas';
+  MoviePyReg in 'MoviePyReg.pas';
 
 end.

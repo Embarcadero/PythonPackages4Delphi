@@ -1,4 +1,4 @@
-package P4DMoviePy;
+package P4DBoto3;
 
 {$R *.res}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
@@ -25,7 +25,7 @@ package P4DMoviePy;
 {$IMAGEBASE $400000}
 {$DEFINE RELEASE}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'P4D Data Sciences - MoviePy'}
+{$DESCRIPTION 'P4D Data Sciences - Boto3'}
 {$LIBSUFFIX AUTO}
 {$RUNONLY}
 {$IMPLICITBUILD ON}
@@ -35,6 +35,6 @@ requires
   p4dpypackage;
 
 contains
-  MoviePy in '..\src\MoviePy\MoviePy.pas';
+  Boto3 in 'Boto3.pas';
 
 end.

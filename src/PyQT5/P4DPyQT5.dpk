@@ -1,4 +1,4 @@
-package P4DPillow;
+package P4DPyQT5;
 
 {$R *.res}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
@@ -25,7 +25,7 @@ package P4DPillow;
 {$IMAGEBASE $400000}
 {$DEFINE RELEASE}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'P4D Data Sciences - Pillow'}
+{$DESCRIPTION 'P4D Data Sciences - PyQT5'}
 {$LIBSUFFIX AUTO}
 {$RUNONLY}
 {$IMPLICITBUILD ON}
@@ -35,6 +35,6 @@ requires
   p4dpypackage;
 
 contains
-  Pillow in '..\src\Pillow\Pillow.pas';
+  PyQT5 in 'PyQT5.pas';
 
 end.
