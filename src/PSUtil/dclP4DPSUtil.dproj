@@ -42,10 +42,11 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
         <SanitizedProjectName>dclP4DPSUtil</SanitizedProjectName>
+        <DCC_DcuOutput>..\..\lib\$(Platform)\$(Config)</DCC_DcuOutput>
         <DCC_Description>P4D Data Sciences - PSUtil</DCC_Description>
         <DCC_ImageBase>00400000</DCC_ImageBase>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
-        <DCC_UnitSearchPath>$(DCC_UnitSearchPath);modules\.dcp;modules\.dcu;modules;modules\.bpl;modules\lightweight-python-wrappers\src\Manager\Cmd\Conda;modules\lightweight-python-wrappers\src\Manager\Cmd\Pip;modules\lightweight-python-wrappers\src\Manager\Cmd;modules\lightweight-python-wrappers\src\Manager\Defs\Opts\Conda;modules\lightweight-python-wrappers\src\Manager\Defs\Opts\Pip;modules\lightweight-python-wrappers\src\Manager\Defs\Opts;modules\lightweight-python-wrappers\src\Manager\Defs;modules\lightweight-python-wrappers\src\Manager;modules\lightweight-python-wrappers\src\Model;modules\lightweight-python-wrappers\src;modules\python4delphi\Source;modules\python4delphi\Source\fmx;modules\python4delphi\Source\lcl;modules\python4delphi\Source\vcl;modules\pythonenviroments\src\AddOn;modules\pythonenviroments\src\Embeddable;modules\pythonenviroments\src\Embeddable\Res;modules\pythonenviroments\src\Project\IDE;modules\pythonenviroments\src\Project;modules\pythonenviroments\src;modules\pythonenviroments\src\Tools</DCC_UnitSearchPath>
+        <DCC_UnitSearchPath>modules\.dcp;modules\.dcu;modules;modules\.bpl;modules\lightweight-python-wrappers\src\Manager\Cmd\Conda;modules\lightweight-python-wrappers\src\Manager\Cmd\Pip;modules\lightweight-python-wrappers\src\Manager\Cmd;modules\lightweight-python-wrappers\src\Manager\Defs\Opts\Conda;modules\lightweight-python-wrappers\src\Manager\Defs\Opts\Pip;modules\lightweight-python-wrappers\src\Manager\Defs\Opts;modules\lightweight-python-wrappers\src\Manager\Defs;modules\lightweight-python-wrappers\src\Manager;modules\lightweight-python-wrappers\src\Model;modules\lightweight-python-wrappers\src;modules\python4delphi\Source;modules\python4delphi\Source\fmx;modules\python4delphi\Source\lcl;modules\python4delphi\Source\vcl;modules\pythonenviroments\src\AddOn;modules\pythonenviroments\src\Embeddable;modules\pythonenviroments\src\Embeddable\Res;modules\pythonenviroments\src\Project\IDE;modules\pythonenviroments\src\Project;modules\pythonenviroments\src;modules\pythonenviroments\src\Tools;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
         <DesignOnlyPackage>true</DesignOnlyPackage>
         <DllSuffix>$(Auto)</DllSuffix>
         <GenDll>true</GenDll>
@@ -149,13 +150,13 @@
             <Platforms>
                 <Platform value="Android">False</Platform>
                 <Platform value="Android64">False</Platform>
+                <Platform value="iOSDevice64">False</Platform>
+                <Platform value="iOSSimARM64">False</Platform>
                 <Platform value="Linux64">False</Platform>
                 <Platform value="OSX64">False</Platform>
                 <Platform value="OSXARM64">False</Platform>
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">False</Platform>
-                <Platform value="iOSDevice64">False</Platform>
-                <Platform value="iOSSimARM64">False</Platform>
             </Platforms>
         </BorlandProject>
         <ProjectFileVersion>12</ProjectFileVersion>

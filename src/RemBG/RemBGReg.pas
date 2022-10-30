@@ -11,7 +11,7 @@ uses
 
 procedure Register();
 begin
-  RegisterComponents('Python Packages for Delphi', [TRemBG]);
+  RegisterComponents('Python - Packages for Delphi', [TRemBG]);
 end;
 
 end.
