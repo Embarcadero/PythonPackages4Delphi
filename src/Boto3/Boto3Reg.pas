@@ -19,7 +19,7 @@ uses
 
 procedure Register();
 begin
-  RegisterComponents('Python Packages for Delphi', [TBoto3]);
+  RegisterComponents('Python - General packages for Delphi', [TBoto3]);
 end;
 
 end.
