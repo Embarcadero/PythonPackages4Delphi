@@ -136,11 +136,10 @@
     <PropertyGroup Condition="'$(Base)'!=''">
         <SanitizedProjectName>P4DBoto3</SanitizedProjectName>
         <DCC_CBuilderOutput>All</DCC_CBuilderOutput>
-        <DCC_DcuOutput>..\lib\$(Platform)\$(Config)</DCC_DcuOutput>
+        <DCC_DcuOutput>..\..\lib\$(Platform)\$(Config)</DCC_DcuOutput>
         <DCC_Description>P4D Data Sciences - Boto3</DCC_Description>
         <DCC_ExeOutput>.\$(Platform)\$(Config)</DCC_ExeOutput>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
-        <DCC_UnitSearchPath>$(DCC_UnitSearchPath);modules\.dcp;modules\.dcu;modules;modules\.bpl;modules\lightweight-python-wrappers\src\Manager\Cmd\Conda;modules\lightweight-python-wrappers\src\Manager\Cmd\Pip;modules\lightweight-python-wrappers\src\Manager\Cmd;modules\lightweight-python-wrappers\src\Manager\Defs\Opts\Conda;modules\lightweight-python-wrappers\src\Manager\Defs\Opts\Pip;modules\lightweight-python-wrappers\src\Manager\Defs\Opts;modules\lightweight-python-wrappers\src\Manager\Defs;modules\lightweight-python-wrappers\src\Manager;modules\lightweight-python-wrappers\src\Model;modules\lightweight-python-wrappers\src;modules\python4delphi\Source;modules\python4delphi\Source\fmx;modules\python4delphi\Source\lcl;modules\python4delphi\Source\vcl;modules\pythonenviroments\src\AddOn;modules\pythonenviroments\src\Embeddable;modules\pythonenviroments\src\Embeddable\Res;modules\pythonenviroments\src\Project\IDE;modules\pythonenviroments\src\Project;modules\pythonenviroments\src;modules\pythonenviroments\src\Tools</DCC_UnitSearchPath>
         <DllSuffix>$(Auto)</DllSuffix>
         <GenDll>true</GenDll>
         <GenPackage>true</GenPackage>
