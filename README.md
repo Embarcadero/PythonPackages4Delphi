@@ -5,6 +5,7 @@ General collection of Python Packages wrapped for use in Delphi and C++Builder. 
 
 * [Boto 3](https://github.com/boto/boto3) - Amazon Web Services (AWS) Software Development Kit (SDK) 
 * [MoviePy](https://zulko.github.io/moviepy/) - Module for video editing, which can be used for basic operations (like cuts, concatenations, title insertions), video compositing (a.k.a. non-linear editing), video processing, or to create advanced effects. It can read and write the most common video formats, including GIF.
+* [Pillow](https://python-pillow.org/) - Python Imaging Library 
 * [PyQT5](https://www.riverbankcomputing.com/software/pyqt/) - Python bindings for QT visual framework. 
 * [RemBG](https://github.com/danielgatis/rembg) - Tool to remove images background.
 * [H5Py](https://www.h5py.org/) - Provides both a high- and low-level interface to the HDF5 (Hierarchical Data Format) library. It lets you store huge amounts of numerical data, and easily manipulate that data from NumPy. 
